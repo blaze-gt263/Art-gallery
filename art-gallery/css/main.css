@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Montserrat&family=Playfair+Display+SC:wght@400;700;900&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Actor', sans-serif;
+}
+
+div {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display SC', serif;
+}
+
+a {
+    color: black;
+}
+
+.bg-light {
+    background: #ffffff !important;
+}
+
+.nav {
+    margin-top: -30px;
+}
+
+.navbar-brand {
+    color: black;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+nav {
+    margin-left: 65px;
+}
+
+nav ul li a {
+    font-family: 'Actor', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.main-content {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: calc(100vh - 55px);
+    background: #EEE7C1;
+    /* background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); */
+
+
+}
+
+.img-cont {
+    position: absolute;
+    display: block;
+    margin-top: -250px;
+    margin-left: -120px;
+    z-index: 5;
+}
+
+.img {
+    width: 1025px;
+    height: auto;
+}
+
+.hearding {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 10px;
+    justify-content: center;
+    align-self: auto;
+    margin-left: -50px;
+}
+
+.hearding h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 2.8rem;
+    letter-spacing: -3px;
+
+}
+
+.hearding h5 {
+    margin-top: 100px;
+}
+
+.hearding a {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.strip {
+    width: 40px;
+    height: calc(100vh - 55px);
+    background: white;
+    margin-left: -14px;
+}
